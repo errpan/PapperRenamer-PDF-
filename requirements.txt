@@ -1,0 +1,6 @@
+PyPDF2
+pdfminer.six
+pymupdf
+bibtexparser
+requests
+tkinter  # Usually included with Python

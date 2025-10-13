@@ -1,2 +1,43 @@
-# PapperRenamer
-PaperRenamer 帮你自动提取元数据，按规范格式重命名，让文献库瞬间整洁！ 核心能力 ✅ 智能提取：从 PDF 内嵌信息、正文内容中识别作者、标题、年份等关键信息✅ 权威补全：通过 DOI 查询 Crossref 或 arXiv 接口，获取最准确的文献元数据✅ 多源融合：支持 BibTeX 文件辅助提取，解决 PDF 信息不全问题✅ 自由定制：预设多种命名模板（如 {author}-{year}-{title}），也可完全自定义✅ 简单易用：图形化界面（GUI），无需代码基础，小白也能轻松上手 适用场景 无论是科研人员整理文献库、学生管理课程论文，还是实验室共享文献资源，都能帮你告别「论文 1.pdf」「下载 (3).pdf」式的混乱命名，让文件检索效率翻倍！
+# PaperRenamer: 学术论文PDF智能重命名工具
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://python.org)
+
+一个智能化的学术论文PDF重命名工具，通过提取元数据、查询DOI信息并应用自定义模板，一键将杂乱的论文文件重命名为规范的格式。
+
+## 📁 项目结构
+
+```
+paper-renamer/
+├── paper_renamer_gui.py    # 主程序入口
+├── README.md              # 项目说明文档
+├── LICENSE                # 开源许可证
+└── requirements.txt       # Python依赖包列表
+```
+
+## ✨ 核心功能
+
+- **智能元数据提取**：自动从PDF中提取作者、年份、期刊、标题等关键信息。
+- **权威数据增强**：通过DOI号联网查询Crossref，获取最准确的论文元数据。
+ - **arXiv支持**：识别arXiv预印本ID并获取其元数据。
+- **多源数据融合**：智能整合PDF内嵌元数据、BibTeX文件和文本内容，确保信息完整。
+- **灵活命名模板**：提供预设模板并支持完全自定义，如 `{author}-{year}-{journal}-{title}`。
+- **图形化界面**：简洁直观的GUI，操作简单，无需命令行知识。
+
+## 🚀 快速开始
+
+1. 确保已安装 Python 3.7+
+2. 安装依赖：`pip install PyPDF2 pdfminer.six pymupdf bibtexparser requests`
+3. 运行程序：`python paper_renamer_gui.py`
+
+## 📷 截图
+
+> *(此处可插入程序界面截图)*
+
+## 🤝 贡献
+
+欢迎提交Issue报告问题或提出建议。也欢迎通过Pull Request贡献代码！
+
+## 📄 许可证
+
+本项目采用 [MIT许可证](LICENSE)。
