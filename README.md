@@ -32,7 +32,8 @@ paper-renamer/
 
 ## 📷 截图
 
-> *(此处可插入程序界面截图)*
+> <img width="674" height="462" alt="image" src="https://github.com/user-attachments/assets/6eeef2cd-040b-40de-8eb1-c1593575d797" />
+
 
 ## 🤝 贡献
 
