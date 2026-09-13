@@ -9,19 +9,20 @@
 
 ## 📁 项目结构
 
-```
+```plaintext
 paper-renamer/
 ├── paper_renamer_gui.py    # 主程序入口
-├── README.md              # 项目说明文档
-├── LICENSE                # 开源许可证
-└── requirements.txt       # Python依赖包列表
+├── README.md               # 项目说明文档（中文版）
+├── README.en.md            # 项目说明文档（英文版）
+├── LICENSE                 # 开源许可证
+└── requirements.txt        # Python依赖包列表
 ```
 
 ## ✨ 核心功能
 
 - **智能元数据提取**：自动从PDF中提取作者、年份、期刊、标题等关键信息。
 - **权威数据增强**：通过DOI号联网查询Crossref，获取最准确的论文元数据。
- - **arXiv支持**：识别arXiv预印本ID并获取其元数据。
+- **arXiv支持**：识别arXiv预印本ID并获取其元数据。
 - **多源数据融合**：智能整合PDF内嵌元数据、BibTeX文件和文本内容，确保信息完整。
 - **灵活命名模板**：提供预设模板并支持完全自定义，如 `{author}-{year}-{journal}-{title}`。
 - **图形化界面**：简洁直观的GUI，操作简单，无需命令行知识。
@@ -34,13 +35,12 @@ paper-renamer/
 
 ## 📷 截图
 
-> <img width="674" height="462" alt="image" src="https://github.com/user-attachments/assets/6eeef2cd-040b-40de-8eb1-c1593575d797" />
-
+<img width="674" height="462" alt="GUI screenshot" src="https://github.com/user-attachments/assets/6eeef2cd-040b-40de-8eb1-c1593575d797" />
 
 ## 🤝 贡献
 
-欢迎提交Issue报告问题或提出建议。也欢迎通过Pull Request贡献代码！
+欢迎提交 Issue 报告问题或提出建议。也欢迎通过 Pull Request 贡献代码！
 
 ## 📄 许可证
 
-本项目采用 [MIT许可证](LICENSE)。
+本项目采用 [MIT License](LICENSE)。
