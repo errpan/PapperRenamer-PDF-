@@ -1,5 +1,4 @@
 # PaperRenamer: Intelligent Academic Paper PDF Renaming Tool
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://python.org)
 
@@ -8,14 +7,13 @@
 An intelligent tool for renaming academic‑paper PDFs. It extracts metadata, queries DOI information and applies custom templates to batch rename messy PDF files into standardized filenames with one click.
 
 ## 📁 Project Structure
-
 ```plaintext
-paper-renamer/
-├── paper_renamer_gui.py      # 主程序入口
-├── README.md                 # 项目说明文档
-├── LICENSE                   # 开源许可证
-└── requirements.txt          # Python依赖包列表
-```
+paper‑renamer/
+├── paper_renamer_gui.py      # Main program entry
+├── README.md                 # Project documentation (Chinese)
+├── README.en.md              # Project documentation (English)
+├── LICENSE                   # Open‑source license
+└── requirements.txt          # Python dependency list
 
 ## ✨ Key Features
 
