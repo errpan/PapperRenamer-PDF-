@@ -14,6 +14,7 @@ paper‑renamer/
 ├── README.en.md              # Project documentation (English)
 ├── LICENSE                   # Open‑source license
 └── requirements.txt          # Python dependency list
+```
 
 ## ✨ Key Features
 
