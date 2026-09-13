@@ -3,6 +3,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.7%2B-blue)](https://python.org)
 
+**中文 | [English](README.en.md)**
+
 一个智能化的学术论文PDF重命名工具，通过提取元数据、查询DOI信息并应用自定义模板，一键将杂乱的论文文件重命名为规范的格式。
 
 ## 📁 项目结构
